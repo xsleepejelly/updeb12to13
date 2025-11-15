@@ -12,3 +12,4 @@ apt autoremove
 apt autoclean
 apt modernize-sources
 apt update
+reboot
