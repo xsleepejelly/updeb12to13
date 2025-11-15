@@ -7,9 +7,9 @@ sed -i 's/bookworm/trixie/g' /etc/apt/sources.list
 apt update
 
 
-screen apt dist-upgrade -y
-apt autoremove -y
+screen apt dist-upgrade
+apt autoremove
 apt autoclean
-apt modernize-sources -y
+apt modernize-sources
 apt update
 reboot
